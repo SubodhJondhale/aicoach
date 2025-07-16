@@ -186,7 +186,7 @@ export default function App() {
   // URL for the voice app
   const voiceAppUrl = useMemo(() => {
     if (userDetails && userDetails.goqiiUserId) {
-      return `https://livekit-frontend-mnlx.vercel.app/?userID=${userDetails.goqiiUserId}`;
+      return `https://livekit-frontend-mnlx.vercel.app/?goqiiUserId=${userDetails.goqiiUserId}`;
     }
     return '';
   }, [userDetails]);
