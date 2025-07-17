@@ -1181,9 +1181,9 @@ const systemPrompt = getSystemPrompt(fetchedHealthData, userDetails, currentTime
             { title: "Suggest a healthy meal", payload: "Suggest a healthy meal for current time based on my logs." },
             { title: "Plan my workout", payload: "Can you plan a workout for me for today?" },
             { title: "How is my todays's progress?", payload: "Tell me more about my today's progress." },
-            { title: "Log my lunch", payload: "I ate a bowl of dal and rice for lunch." },
-            { title: "I drank a glass of water", payload: "Log a glass of water for me." },
-            { title: "I slept for 8 hours", payload: "I slept for 7 hours." },
+            { title: "Log my lunch", payload: "Log my lunch" },
+            { title: "Log water", payload: "Log water." },
+            { title: "Log my sleep", payload: "Log my sleep." },
 
           ]);
           setIsLoading(false);
