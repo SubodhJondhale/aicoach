@@ -1178,13 +1178,12 @@ const systemPrompt = getSystemPrompt(fetchedHealthData, userDetails, currentTime
               return newMessages;
           });
           setQuickReplies([
+            { title: "Log water", payload: "Log water." },
+             { title: "Log my food", payload: "Log my food" },
+            { title: "Log my sleep", payload: "Log my sleep." },
             { title: "Suggest a healthy meal", payload: "Suggest a healthy meal for current time based on my logs." },
             { title: "Plan my workout", payload: "Can you plan a workout for me for today?" },
             { title: "How is my todays's progress?", payload: "Tell me more about my today's progress." },
-            { title: "Log my lunch", payload: "Log my lunch" },
-            { title: "Log water", payload: "Log water." },
-            { title: "Log my sleep", payload: "Log my sleep." },
-
           ]);
           setIsLoading(false);
       }
